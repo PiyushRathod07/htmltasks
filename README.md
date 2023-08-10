@@ -9,3 +9,4 @@
 ![task 9](https://github.com/PiyushRathod07/htmltasks/assets/141417054/b0340922-d93c-4704-a647-c88e08a801ea)
 ![task 10](https://github.com/PiyushRathod07/htmltasks/assets/141417054/d02824be-0902-4f49-be38-e9e6e3198368)
 
+![task 12 ](https://github.com/PiyushRathod07/htmltasks/assets/141417054/c5e73dd1-b92d-4a6c-9c6b-77d381c12139)
