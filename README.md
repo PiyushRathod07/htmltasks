@@ -1,1 +1,11 @@
-# htmltasks
+![task 1 ](https://github.com/PiyushRathod07/htmltasks/assets/141417054/8c79b420-16d9-417a-9a4b-bf7013fe7b33)
+![task 2 ](https://github.com/PiyushRathod07/htmltasks/assets/141417054/cb16b60b-7dd9-4b4b-a581-5aadd2a2c7b5)
+![task 3 ](https://github.com/PiyushRathod07/htmltasks/assets/141417054/38fac3cf-0222-45bf-9615-a1444cedac1a)
+![task 4 ](https://github.com/PiyushRathod07/htmltasks/assets/141417054/10128d08-0331-4ca2-ad0f-721c10296e1b)
+![task 5](https://github.com/PiyushRathod07/htmltasks/assets/141417054/22771e10-3e3b-47ab-9db6-c47ffb7308b3)
+![task 6](https://github.com/PiyushRathod07/htmltasks/assets/141417054/305f005a-e262-479f-8bad-147549b42860)
+![task 7](https://github.com/PiyushRathod07/htmltasks/assets/141417054/d96a7aa5-1ef3-474d-9c0e-b95727d5d6e2)
+![task 8](https://github.com/PiyushRathod07/htmltasks/assets/141417054/4cb9ed3a-47b3-45c5-998f-c1a36d989520)
+![task 9](https://github.com/PiyushRathod07/htmltasks/assets/141417054/b0340922-d93c-4704-a647-c88e08a801ea)
+![task 10](https://github.com/PiyushRathod07/htmltasks/assets/141417054/d02824be-0902-4f49-be38-e9e6e3198368)
+
