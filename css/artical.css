@@ -1,12 +1,25 @@
+*
+{
+    font-family: monospace;
+   border: 1px solid red;
+}
 body {
     font-size: 22px;
-
+    border: 3px solid black;
 }
 h1,h2
+{
+    color: chartreuse;
+}
 
 p {
     color: brown;
 
+}
+p span 
+{
+    text-transform: uppercase;
+    background-color: gold;
 }
 
 #second
