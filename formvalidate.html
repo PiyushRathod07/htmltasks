@@ -14,30 +14,23 @@
            <input type="submit" style="box-shadow: blue;">
         </form>
         <script>
-            function validateEmail(email) {
-              const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-              return emailPattern.test(email);
-            }
-          
-            function validateForm() {
-              const name = document.getElementById('name').value;
-              const email = document.getElementById('email').value;
-              const message = document.getElementById('message').value;
-              const errorMessage = document.getElementById('error-message');
-          
-              if (name === '' || email === '' || message === '') {
-                errorMessage.textContent = 'All fields are required.';
-                return false;
-              }
-          
-              if (!validateEmail(email)) {
-                errorMessage.textContent = 'Please enter a valid email address.';
-                return false;
-              }
-          
-              errorMessage.textContent = '';
-              return true;
-            }
-          </script>
+          function ValidateEmail(inputText)
+          {
+          var mailformat = /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/;
+          if(inputText.value.match(mailformat))
+          {
+          alert("Valid email address!");
+          document.myForm.text1.focus();
+          return true;
+          }
+          else
+          {
+          alert("You have entered an invalid email address!");
+          document.form1.text1.focus();
+          return false;
+          }
+          }
+              </script>
     </body>
+    
 </html>
