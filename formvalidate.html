@@ -1,36 +1,49 @@
+<html>
+    <head>
+        <title>Build a basic Form  </title>
 
-<<<<<<< HEAD
     </head>
     <body>
-        <form style="background-color: aquamarine;" >
+        <form style="background-color: aquamarine;" name="myForm" >
             <h2>Basic Form </h2>
             Name:
-                 <input type="text" placeholder="Please enter name here " style="background-color: bisque;" /><br><br>
+                 <input type="text" placeholder="Please enter name here " style="background-color: bisque;" name="name"/><br><br>
             Email:
-                <input type="email" name="Email" style="background-color: bisque;" placeholder="Enter your email here "/>
+                <input type="email" name="email" style="background-color: bisque;" placeholder="Enter your email here "/>
                 <br><br>
-           <input type="submit" style="box-shadow: blue;">
+           <input type="submit" style="box-shadow: blue;" onclick="validateEmail(document.myForm.email)">
         </form>
         <script>
-          function ValidateEmail(inputText)
-          {
-          var mailformat = /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/;
-          if(inputText.value.match(mailformat))
-          {
-          alert("Valid email address!");
-          document.myForm.text1.focus();
-          return true;
-          }
-          else
-          {
-          alert("You have entered an invalid email address!");
-          document.form1.text1.focus();
-          return false;
-          }
-          }
-              </script>
+            function validateEmail(email) {
+              const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+              if(email.value.match(emailPattern)){
+                alert("Valid email address!");
+                return true;
+              }
+        
+            else{
+                alert("Invalid email address!");  
+                return false;
+            }
+        }
+          
+            function validateForm() {
+              const name = document.getElementById('name').value;
+              const email = document.getElementById('email').value;
+          
+              if (name === '' || email === '') {
+                alert('All fields are required.');
+                return  false;
+              }
+          
+              if (!validateEmail(email)) {
+                alert("Please enter a valid email address.");
+                return false;
+              }
+              alert(" valid email address.");
+              return true;
+            }
+          </script>
     </body>
     
 </html>
-=======
->>>>>>> c0b3f927226817e81754359184e0fbd3684bc916
