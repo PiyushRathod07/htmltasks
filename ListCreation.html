@@ -1,8 +1,30 @@
 <html>
     <head><title>List Creation</title></head>
+    <style>
+        .a{
+            list-style-type: disc;
+            list-style-image: -moz-element();
+            list-style-position: outside;
+            background: #125b82;
+            padding: 10px;
+            margin: 10px;
+        }
+        .b{
+            list-style-type: lower-roman;
+            list-style-image: url(spman.jpeg);
+            list-style-position: inside;
+            background: #588882;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        li{
+            background: #696a80;
+        }
+    </style>
     <body>
         <h2>Top Five favourite Movies </h2>
-        <ol type="I">
+        <ol  class="a">
             <li>Avengers: Endgame</li>
             <li>Money Heist</li>
             <li>Atranger Things</li>
@@ -10,7 +32,7 @@
             <li>Tare Zameen Par</li>
         </ol>
         <h2>Top Five favourite Movies </h2>
-        <ul type="circle">
+        <ul class="b">
             <li>Avengers: Endgame</li>
             <li>Money Heist</li>
             <li>Atranger Things</li>
