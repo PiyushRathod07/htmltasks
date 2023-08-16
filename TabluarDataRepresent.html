@@ -2,14 +2,30 @@
 <html>
 <head>
 <style>
+  table{
+    width: 100%;
+    border-collapse: collapse;
   
+  }
   
 
   th, td {
     border: 1px solid black;
     padding: 10px;
-    text-align: center;
+    text-align: left;
+    padding: 20px;  
+  }
+  tr:hover
+  {
+    background-color: aqua;
     
+  }
+  tr:nth-child(even)
+  {
+    background-color: rgb(232, 227, 227);
+  }
+  th{
+    height: 70px;
   }
 
   
@@ -18,8 +34,8 @@
 <body>
 
 <h2>Table with 3 Portions</h2>
-
-<table  style=" height: 300px; width: 1000px; background-color: aquamarine;;">
+<div style="overflow-x: auto";>
+<table >
   <tr >
     <th>Features </th>
     <th>Lenovo V310</th>
@@ -50,6 +66,7 @@
     <td>34000</td>
   </tr>
 </table>
+</div>
 
 </body>
 </html>
